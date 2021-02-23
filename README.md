@@ -8,7 +8,7 @@
         <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" /></a>
         <img src="https://img.shields.io/badge/platform-web-blueviolet" alt="Project Platform" />
         <a href="https://moveit-zevdvlpr.vercel.app/"><img src="https://img.shields.io/badge/deploy-vercel-brightgreen" alt="Deploy link" /></a>
-        <a href="https://github.com/zevdvlpr/moveit/tree/master/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/moveit?color=red&label=license" alt="Repo License" /></a>
+        <a href="https://github.com/zevdvlpr/moveit/tree/dev/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/moveit?color=red&label=license" alt="Repo License" /></a>
     </p>     
     <p>
         <a href="https://www.linkedin.com/in/zevdvlpr" target="_blank">
@@ -49,6 +49,6 @@ Have you ever stopped to think how long you stay on your computer screen without
 <div align="center">
   <h1>Open Source</h1>
   <sub>Copyright © 2021-present, zevdvlpr.</sub>
-  <p>Move.it <a href="https://github.com/zevdvlpr/discord-clone/tree/master/LICENSE">is MIT licensed 💖</a></p>
+  <p>Move.it <a href="https://github.com/zevdvlpr/discord-clone/tree/dev/LICENSE">is MIT licensed 💖</a></p>
   <img src="/public/favicon.png" width="35" />
 </div>
