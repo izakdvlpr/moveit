@@ -5,7 +5,7 @@
     <hr />    
     <p>
         <a href="https://nextlevelweek.com/"><img src="https://img.shields.io/badge/type-nlw-orange" alt="Repo Type" /></a>
-        <img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" />
+        <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" /></a>
         <img src="https://img.shields.io/badge/platform-web-blueviolet" alt="Project Platform" />
         <a href="https://moveit-zevdvlpr.vercel.app/"><img src="https://img.shields.io/badge/deploy-vercel-brightgreen" alt="Deploy link" /></a>
         <a href="https://github.com/zevdvlpr/moveit/tree/master/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/moveit?color=red&label=license" alt="Repo License" /></a>
