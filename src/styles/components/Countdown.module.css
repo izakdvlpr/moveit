@@ -58,11 +58,11 @@
   font-weight: 600;
   color: var(--white);
 
-  background: var(--blue);
+  background: var(--orange);
   
   transition: background-color 0.2s;
 }
 
 .countdownButton:hover {
-  background: var(--blue-dark);
+  background: var(--orange-dark);
 }
