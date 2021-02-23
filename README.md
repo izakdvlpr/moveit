@@ -4,7 +4,7 @@
     <p>💪 An application to exercise and stretch the body</p>    
     <hr />    
     <p>
-        <img src="https://img.shields.io/badge/type-nlw%20clone-orange" alt="Repo Type" />
+        <a href="https://nextlevelweek.com/"><img src="https://img.shields.io/badge/type-nlw-orange" alt="Repo Type" /></a>
         <img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" />
         <img src="https://img.shields.io/badge/platform-web-blueviolet" alt="Project Platform" />
         <a href="https://moveit-zevdvlpr.vercel.app/"><img src="https://img.shields.io/badge/deploy-vercel-brightgreen" alt="Deploy link" /></a>
