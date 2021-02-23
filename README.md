@@ -26,6 +26,7 @@ Have you ever stopped to think how long you stay on your computer screen without
 # Techs
 
  - [Next.js](https://nextjs.org/) 
+ - [React.js](https://reactjs.org/)
  - [TypeScript](https://www.typescriptlang.org/)
 
 # Requirements
