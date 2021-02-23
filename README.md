@@ -48,7 +48,7 @@ Have you ever stopped to think how long you stay on your computer screen without
 
 <div align="center">
   <h1>Open Source</h1>
-  <sub>Copyright © 2020-present, zevdvlpr.</sub>
+  <sub>Copyright © 2021-present, zevdvlpr.</sub>
   <p>Move.it <a href="https://github.com/zevdvlpr/discord-clone/tree/master/LICENSE">is MIT licensed 💖</a></p>
   <img src="/public/favicon.png" width="35" />
 </div>
