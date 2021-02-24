@@ -1,3 +1,6 @@
+import UseAnimations from 'react-useanimations';
+import arrowUp from 'react-useanimations/lib/arrowUp';
+
 import styles from '../styles/components/Profile.module.css';
 
 export function Profile() {
@@ -9,8 +12,11 @@ export function Profile() {
         <strong>Zev</strong>
 
         <p>
-          <img src="icons/level.svg" alt="Level" />
-          
+          <UseAnimations
+            animation={arrowUp}
+            size={30}
+            strokeColor="var(--green)"
+          />
           Level 1
         </p>
       </div>
