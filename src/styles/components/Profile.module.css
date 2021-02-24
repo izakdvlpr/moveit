@@ -10,7 +10,7 @@
   border-radius: 50%;
 }
 
-.profileContainer div {
+.profileContainer > div {
   margin-left: 1.5rem;
 }
 
@@ -21,8 +21,12 @@
 }
 
 .profileContainer div p {
-  font-size: 1rem;
   margin-top: 0.5rem;
+  
+  display: flex;
+  align-items: center;
+  
+  font-size: 1rem;
 }
 
 .profileContainer div p img {
