@@ -1,0 +1,68 @@
+.levelUpOverlay {
+  position: fixed;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(242, 243, 245, 0.8);
+}
+
+.levelUpContainer {
+  width: 100%;
+  max-width: 400px;
+
+  position: relative;
+
+  padding: 2rem 3rem;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  background: var(--white);
+
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+}
+
+.levelUpContainer header {
+  font-size: 8.75rem;
+  font-weight: 600;
+
+  color: var(--orange);
+
+  background: url('/icons/levelup.svg') no-repeat center;
+  background-size: contain;
+}
+
+.levelUpContainer strong {
+  font-size: 2.25rem;
+
+  color: var(--title);
+}
+
+.levelUpContainer p {
+  margin-top: 0.25rem;
+
+  font-size: 1.25rem;
+
+  color: var(--text);
+}
+
+.levelUpContainer button {
+  position: absolute;
+
+  top: 0.5rem;
+  right: 0.5rem;
+  
+  font-size: 0px;
+
+  border: 0;
+
+  background: transparent;
+}
