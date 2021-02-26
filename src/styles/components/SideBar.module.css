@@ -1,0 +1,73 @@
+.sideBarContainer {
+  position: fixed;
+
+  z-index: 999;
+
+  height: 100%;
+  width: 7rem;
+  
+  padding: 25px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var(--white);
+
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+}
+
+.sideBarContainer img {
+  width: 2.5rem;
+  height: 2.5rem;
+  
+  cursor: pointer;
+}
+
+.sideBarContainer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideBarContainer ul li {
+  width: 7rem;
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  list-style-type: none;
+}
+
+.sideBarContainer ul li:hover,
+.sideBarActive {
+  border-left: 3px solid var(--orange);
+  border-radius: 0 5px 5px 0;
+}
+
+.sideBarContainer ul li.sideBarNotActive svg {
+  opacity: 0.5;
+  
+  fill: var(--text);    
+}
+
+.sideBarContainer ul li svg {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  fill: var(--orange);
+}
+
+.sideBarContainer > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  fill: var(--orange);
+  
+  cursor: pointer;
+}
