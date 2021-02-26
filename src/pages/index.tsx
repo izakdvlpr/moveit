@@ -20,7 +20,7 @@ type HomeProps = Omit<ChallengesProviderProps, 'children'>;
 export default function Home({ user }: HomeProps) {
   return (
     <ChallengesProvider user={user}>
-      <div className={styles.container}>
+      <div className={styles.homeContainer}>
         <Head>
           <title>Início | Move.it</title>
         </Head>

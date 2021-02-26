@@ -1,4 +1,4 @@
-.container {
+.homeContainer {
   max-width: 992px;
   height: 100vh;
 
@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 
-.container section {    
+.homeContainer section {    
   flex: 1;
   
   display: grid;
@@ -18,6 +18,6 @@
   align-content: center;
 }
 
-.container section > div {
+.homeContainer section > div {
   margin-bottom: 1rem;
 }
