@@ -1,0 +1,47 @@
+.loginBody {
+  background: var(--orange);
+}
+
+.loginContainer {
+  max-width: 1280px;
+  width: 100vw;
+  height: 100vh;
+  
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;  
+}
+
+.loginContainer section {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.25rem;
+  align-content: center;
+}
+
+.loginContainer section > div {
+  position: relative;
+}
+
+.loginSymbol img {
+  height: 35rem;
+
+  position: absolute;
+  top: -6rem;
+  left: -4.25rem;      
+}
+
+@media (max-width: 914px) {  
+  .loginContainer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginSymbol img {
+    display: none;
+  }
+}
