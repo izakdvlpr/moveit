@@ -11,7 +11,7 @@ export function Profile() {
 
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/zevdvlpr.png" alt="Zev" />
+      <img src="https://github.com/zevdvlpr.png" alt="Avatar" />
 
       <div>
         <strong>Zev</strong>
