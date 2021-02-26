@@ -1,0 +1,90 @@
+.userCardContainer {
+  margin-bottom: 0.5rem;
+  
+  width: 100%;
+
+  display: flex;
+}
+
+.userCardPosition {
+  width: 10%;
+
+  margin-right: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  border-radius: 5px 0 0 5px;
+
+  background: var(--white);
+}
+
+.userCardStatistics {
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 0 5px 5px 0;
+
+  background: var(--white);
+}
+
+.userCardInformation {
+  width: 56%;
+
+  padding: 1rem 1.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.userCardInformation img {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 50%;
+}
+
+.userCardInformation div strong {
+  margin-left: 1rem;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  color: var(--title);
+}
+
+.userCardInformation div > div {
+  margin-left: 0.3rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.userCardInformation div > div p {
+  font-size: 1rem;
+}
+
+.userCardChallenges {
+  width: 23%;
+}
+
+.userCardExperience {
+  width: 20%;
+}
+
+.userCardChallenges,
+.userCardExperience {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.userCardChallenges span,
+.userCardExperience span {
+  color: var(--orange);
+}
