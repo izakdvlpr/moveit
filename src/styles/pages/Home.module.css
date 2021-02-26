@@ -2,7 +2,7 @@
   max-width: 992px;
   height: 100vh;
 
-  padding: 2.5rem 2rem;
+  padding: 2rem;
   margin: 0 auto;
 
   display: flex;
@@ -16,8 +16,4 @@
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-content: center;
-}
-
-.homeContainer section > div {
-  margin-bottom: 1rem;
 }
