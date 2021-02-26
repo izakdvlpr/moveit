@@ -1,0 +1,108 @@
+.loginFormContainer img {
+  max-width: 360px;
+  width: 100%;  
+  height: 100%;  
+}
+
+.loginFormContainer header {
+  margin-top: 3rem;
+}
+
+.loginFormContainer header span {
+  font-size: 2.25rem;
+  font-weight: 600;
+
+  color: var(--white);
+}
+
+.loginFormContainer header p {
+  max-width: 19.8rem;
+  width: 100%;
+
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  color: var(--text-highlight);
+}
+
+.loginFormContainer header p svg {
+  margin-right: 1.5rem;
+
+  fill: var(--text-highlight);
+}
+
+.loginFormInput {
+  margin-top: 2.5rem;
+
+  width: 26rem;
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.loginFormInput input {
+  max-width: 20rem;
+  width: 100%;
+  height: 5rem;
+
+  padding: 0 1.8rem;
+
+  display: flex;
+
+  border: 0;
+  border-radius: 5px;
+
+  font-size: 1.25rem;
+  color: var(--white);
+
+  background: var(--orange-dark);
+}
+
+.loginFormInput input::placeholder {
+  color: var(--text-highlight);
+}
+
+.loginFormInput button {
+  max-width: 5rem;
+  width: 100%;
+  height: 5rem;
+
+  border: 0;
+  border-radius: 0 5px 5px 0;
+
+  background: var(--green);
+}
+
+.loginFormInput button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  fill: var(--white);
+}
+
+@media (max-width: 500px) {
+  /* .loginFormInput {
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+  }
+  
+  .loginFormInput input {
+    width: 70%;
+  }
+
+  .loginFormInput button {
+    width: 70%;
+
+    margin-top: 1rem;
+
+    border-radius: 5px;
+  } */
+}
