@@ -1,7 +1,7 @@
 import UseAnimations from 'react-useanimations';
 import arrowUp from 'react-useanimations/lib/arrowUp';
 
-import styles from '../styles/components/UserCard.module.css';
+import styles from '@styles/components/UserCard.module.css';
 
 interface User {
   position: number;

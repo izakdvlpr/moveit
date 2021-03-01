@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 import { BiHome, BiMedal, BiLogOut } from 'react-icons/bi';
 
-import styles from '../styles/components/SideBar.module.css';
+import styles from '@styles/components/SideBar.module.css';
 
 export function SideBar() {
   const router = useRouter();

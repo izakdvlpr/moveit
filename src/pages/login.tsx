@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
-import styles from '../styles/pages/Login.module.css';
+import styles from '@styles/pages/Login.module.css';
 
-import { LoginForm } from '../components/LoginForm';
+import { LoginForm } from '@components/LoginForm';
 
 export default function Login() {
   return (

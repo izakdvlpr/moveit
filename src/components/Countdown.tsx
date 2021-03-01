@@ -5,9 +5,9 @@ import UseAnimations from 'react-useanimations';
 import radioButton from 'react-useanimations/lib/radioButton';
 import * as Icons from 'react-icons/io';
 
-import { CountdownContext } from '../contexts/CountdownContext';
+import { CountdownContext } from '@contexts/CountdownContext';
 
-import styles from '../styles/components/Countdown.module.css';
+import styles from '@styles/components/Countdown.module.css';
 
 export function Countdown() {
   const {

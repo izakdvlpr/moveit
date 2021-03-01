@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 
 import { FaGithub, FaArrowRight } from 'react-icons/fa';
 
-import styles from '../styles/components/LoginForm.module.css';
+import styles from '@styles/components/LoginForm.module.css';
 
 export function LoginForm() {
   const router = useRouter();   

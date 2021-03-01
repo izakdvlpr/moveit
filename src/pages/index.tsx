@@ -4,16 +4,16 @@ import { GetServerSideProps } from 'next';
 import {
   ChallengesProvider,
   ChallengesProviderProps,
-} from '../contexts/ChallengesContext';
-import { CountdownProvider } from '../contexts/CountdownContext';
+} from '@contexts/ChallengesContext';
+import { CountdownProvider } from '@contexts/CountdownContext';
 
-import { ChallengeBox } from '../components/ChallengeBox';
-import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
+import { ChallengeBox } from '@components/ChallengeBox';
+import { CompletedChallenges } from '@components/CompletedChallenges';
+import { Countdown } from '@components/Countdown';
+import { ExperienceBar } from '@components/ExperienceBar';
+import { Profile } from '@components/Profile';
 
-import styles from '../styles/pages/Home.module.css';
+import styles from '@styles/pages/Home.module.css';
 
 type HomeProps = Omit<ChallengesProviderProps, 'children'>;
 

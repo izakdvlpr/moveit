@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
-import { UserCard } from '../components/UserCard';
+import { UserCard } from '@components/UserCard';
 
-import styles from '../styles/pages/Leaderboard.module.css';
+import styles from '@styles/pages/Leaderboard.module.css';
 
 export default function Leaderboard() {
   return (

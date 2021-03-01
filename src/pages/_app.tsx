@@ -1,10 +1,10 @@
 import { AppProps } from 'next/app';
 
-import { AuthProvider } from '../contexts/AuthContext';
+import { AuthProvider } from '@contexts/AuthContext';
 
-import { SideBar } from '../components/SideBar';
+import { SideBar } from '@components/SideBar';
 
-import '../styles/global.css';
+import '@styles/global.css';
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
